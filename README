@@ -1,0 +1,9 @@
+BOB - Better Opensource Bootloader
+
+BUILD:
+
+	Make sure you have mingw32-64 installed.
+
+		$ mkdir build && cd build
+		$ cmake -GNinja ..
+		$ ninja
