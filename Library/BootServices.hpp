@@ -7,7 +7,7 @@ struct BootServices {
   void* RaiseTPL, *RestoreTPL;
   unsigned long long (*AllocatePages)(AllocationType Type, unsigned long long MemoryType, unsigned long long Pages, unsigned long long* Memory);
   void* FreePages;
-  unsigned long long (*GetMemoryMap)(unsigned long long* MemoryMapSize, MemoryDescriptor* MemoryMap, unsigned long long* MapKey, unsigned long long* DescriptorSize, unsigned int* DescriptorVersion);
+  unsigned long long (*GetMemoryMap)(unsigned long long* MemoryMapSize, MemoryDescriptor* MemoryMap, unsigned long long* MapKey, unsigned long long* DescriptorSize, unsigned long long* DescriptorVersion);
   unsigned long long (*AllocatePool)(unsigned long long PoolType, unsigned long long Size, void** Buffer);
   unsigned long long (*FreePool)(void* Buffer);
   void* CreateEvent, *SetTimer, *WaitForEvent, *SignalEvent, *CloseEvent, *CheckEvent, *InstallProtocolInterface, *ReinstallProtocolInterface, *UninstallProtocolInterface;

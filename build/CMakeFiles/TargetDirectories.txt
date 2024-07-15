@@ -1,0 +1,3 @@
+/home/levih/NISD/boot/build/CMakeFiles/bootx64.efi.dir
+/home/levih/NISD/boot/build/CMakeFiles/edit_cache.dir
+/home/levih/NISD/boot/build/CMakeFiles/rebuild_cache.dir
